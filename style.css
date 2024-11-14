@@ -1,0 +1,72 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #3c1c1c; /* Vermelho escuro como cor de fundo */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #662d2d; /* Vermelho intermediário */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #ff0000; /* Vermelho vibrante */
+}
+
+h1 {
+  color: #ffcccc;  /* Vermelho muito claro */
+  font-size: 2.2em;
+}
+
+p {
+  color: #ffb3b3; /* Vermelho claro */
+  font-size: 1.3em;
+}
+
+section {
+  padding: 20px;
+}
+
+canvas {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #662d2d; /* Fundo vermelho intermediário para o gráfico */
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(255, 0, 0, 0.5); /* Efeito neon vermelho */
+  padding: 15px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #662d2d; /* Vermelho intermediário */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+ul li a {
+  color: #ff0000; /* Vermelho vibrante */
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #ff6666; /* Vermelho mais claro ao passar o mouse */
+}
